@@ -1,0 +1,20 @@
+{
+    "class_name": "Sequential",
+    "config": [
+        {
+            "class_name": "Dense",
+            "config": {
+                "units": 64,
+                "activation": "relu",
+                "input_shape": [128]
+            }
+        },
+        {
+            "class_name": "Dense",
+            "config": {
+                "units": 1,
+                "activation": "sigmoid"
+            }
+        }
+    ]
+}
